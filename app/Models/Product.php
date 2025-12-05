@@ -12,7 +12,7 @@ use Illuminate\Database\Eloquent\Model;
 
         public function supplier()
         {
-            return $this->belongsTo(Suppllier::class);
+            return $this->belongsTo(Supplier::class);
         }
     }
 

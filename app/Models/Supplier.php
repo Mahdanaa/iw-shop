@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Eloquent\Model;
-    class Suppllier extends Model{
+    class Supplier extends Model{
         protected $fillable = ['name','phone','address'];
 
         public function products(){

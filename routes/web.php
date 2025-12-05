@@ -4,8 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\SupplierController;
-use App\Http\Controllers\Customer;
-use App\Http\Controllers\Transaction;
+use App\Http\Controllers\CustomerController;
+use App\Http\Controllers\TransactionController;
 
 
 Route::get('/', function () {
@@ -20,8 +20,8 @@ Route::middleware(['auth'])->prefix('admin')->group(function () {
    Route::resource('categories',CategoryController::class);
    Route::resource('products',ProductController::class);
    Route::resource('suppliers',SupplierController::class);
-   Route::resource('customers',Customer::class);
-   Route::resource('transactions',Transaction::class);
+   Route::resource('customers',CustomerController::class);
+   Route::resource('transactions',TransactionController::class);
 
 });
 
