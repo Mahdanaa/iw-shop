@@ -18,30 +18,6 @@ return [
     'title_prefix' => '',
     'title_postfix' => '',
 
-    'menu' => [
-    [
-        'text' => 'Dashboard',
-        'url'  => 'admin/dashboard',
-        'icon' => 'fas fa-fw fa-tachometer-alt',
-    ],
-    ['header' => 'DATA MASTER'], // Pemisah section
-    [
-        'text' => 'Kategori',
-        'url'  => 'admin/categories',
-        'icon' => 'fas fa-fw fa-tags',
-    ],
-    [
-        'text' => 'Supplier',
-        'url'  => 'admin/suppliers',
-        'icon' => 'fas fa-fw fa-truck',
-    ],
-    [
-        'text' => 'Produk',
-        'url'  => 'admin/products',
-        'icon' => 'fas fa-fw fa-box',
-    ],
-],
-
 
     /*
     |--------------------------------------------------------------------------
@@ -325,6 +301,37 @@ return [
 
     'menu' => [
         // Navbar items:
+        [
+        'text' => 'Dashboard',
+        'url'  => 'admin/dashboard',
+        'icon' => 'fas fa-fw fa-tachometer-alt',
+    ],
+    ['header' => 'DATA MASTER'], // Pemisah section
+    [
+        'text' => 'Kategori',
+        'url'  => 'admin/categories',
+        'icon' => 'fas fa-fw fa-tags',
+    ],
+    [
+        'text' => 'Supplier',
+        'url'  => 'admin/suppliers',
+        'icon' => 'fas fa-fw fa-truck',
+    ],
+    [
+        'text' => 'Produk',
+        'url'  => 'admin/products',
+        'icon' => 'fas fa-fw fa-box',
+    ],
+    [
+        'text' => 'Customer',
+        'url'  => 'admin/customers',
+        'icon' => 'fas fa-fw fa-user',
+    ],
+    [
+        'text' => 'Transaksi',
+        'url'  => 'admin/transactions',
+        'icon' => 'fas fa-fw fa-credit-card',
+    ],
         [
             'type' => 'navbar-search',
             'text' => 'search',
